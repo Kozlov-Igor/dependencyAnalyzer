@@ -1,0 +1,7 @@
+services:
+  server:
+    build: server
+    environment:
+      - HOST=${HOST}
+    ports:
+      - ${SERVER_PORT}:${SERVER_PORT}
